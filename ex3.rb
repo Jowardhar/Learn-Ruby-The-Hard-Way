@@ -2,7 +2,7 @@
 puts "I Will now count my chicken"
 
 # prints sentence with string interpolation 
-#'#{}' allows us to input RUby computation in to a string, this prints the result instead of the characters inside
+#'#{}' allows us to input Ruby computation in to a string, this prints the result instead of the characters inside
 # the line below will be seen as "Hens 30" on the console
 puts "Hens #{25.0 + 30 / 6}"
 puts "Roosters #{100.0 - 25 * 3 % 4}"
@@ -37,6 +37,10 @@ puts "Is it less than or equal? #{5 <= -2}"
 
 
 # Study Drills
+
+# Study Drill 1 - Above each line, use the # to write a comment to yourself explaining what the line does.
+
+# Study Drill 2 - Remember in Exercise 0 when you started irb? Start irb this way again and, using the math operators, use Ruby as a calculator.
 
 # Study Drill 3 -Find something you need to calculate and write a new .rb file that does it.
 
