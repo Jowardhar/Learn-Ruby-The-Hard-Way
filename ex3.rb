@@ -48,4 +48,4 @@ puts "Is it less than or equal? #{5 <= -2}"
 
 # Study Drill 4 - Rewrite ex3.rb to use floating point numbers so it's more accurate. 20.0 is floating point.
 
-# Answer: changed line 7 and 8 to output floting point numbers. 25 to 25.0 and 100 to 100.0
+# Answer: changed line 7 and 8 to output floating point numbers. 25 to 25.0 and 100 to 100.0
