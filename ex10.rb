@@ -1,10 +1,11 @@
-# variable with format sequence tab(indent)
+# assigned string with escape sequence tab to variable 'tabby_cat'
 tabby_cat = "\t I'm tabbed in."
-# variable with format new line
+# assigned string with escape sequence new line to variable 'persian_cat'
 persian_cat = "I'm split \non a line."
-#variable with format backslash
+# assigned string with escape sequence backslash to variable 'backslash_cat'
 backslash_cat = "I'm \\ a \\ cat."
-# variable with formats using """ .... """
+
+# assigned multi-line string with various escape sequences to variable 'fat_cat'
 fat_cat = """
     I'll do a list:
     \t* Cat food
