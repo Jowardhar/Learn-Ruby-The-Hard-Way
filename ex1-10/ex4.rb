@@ -19,7 +19,7 @@ cars_driven = drivers
 # assigns the result of the math calculation 'cars_driven * space_in_a_car' which is also '30 * 4.0'
 carpool_capacity = cars_driven * space_in_a_car
 
-# assigns the result of the math calculation ' passenger / cars_driven' whic is also ' 90 / 30'
+# assigns the result of the math calculation 'passenger / cars_driven' which is also ' 90 / 30'
 average_passenger_per_car = passengers / cars_driven
 
 # prints the sentences with string interpolation and variables
@@ -34,11 +34,11 @@ puts "We need to put #{average_passenger_per_car} in each car"
 
 # Study Drill 1 - I used 4.0 for space_in_a_car, but is that necessary? What happens if it's just 4?
 
-# Answer - This is not necassary as we are using a whole number, just 4 as an integer is sufficent the results will be same.
+# Answer - This is not necessary as we are using a whole number, just 4 as an integer is sufficient the results will be same.
 
 # Study Drill 2 - Remember that 4.0 is a floating point number. It's just a number with a decimal point, and you need 4.0 instead of just 4 so that it is floating point.
 
-# Answer -  If a floating point number output is required then a floating point number must be used. In this example the outcome is uneffected if we used floating point or just an integer.
+# Answer -  If a floating point number output is required then a floating point number must be used. In this example the outcome is unaffected if we used floating point or just an integer.
 
 # Study Drill 3 - Write comments above each of the variable assignments.
 
@@ -46,7 +46,7 @@ puts "We need to put #{average_passenger_per_car} in each car"
 
 # Study Drill 4 - Make sure you know what = is called (equals) and that its purpose is to give data (numbers, strings, etc.) names (cars_driven, passengers).
 
-# Answer: The = is an assignment operator, it assigns values from the right side operand to the ;eft side operand.
+# Answer: The = is an assignment operator, it assigns values from the right side operand to the left side operand.
 
 # Study Drill 5 - Remember that _ is an underscore character.
 

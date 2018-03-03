@@ -53,5 +53,5 @@ you_see = "What is 5 * 8? \n #{5 * 8 }"
 
 puts code_in + "\nYou See:" + "\n#{you_see}"
 
-# Going back to the signle quotation point made earlier. we can use it to show the code on the terminal just like in the 
+# Going back to the single quotation point made earlier. we can use it to show the code on the terminal just like in the 
 # example
