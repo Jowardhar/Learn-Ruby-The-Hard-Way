@@ -1,7 +1,7 @@
 # variable with a number of people
 types_of_people = 10
 # variable x contains a string with interpolation with integer variable 'tupes_of_people' (integer)
-x = "There are #{types_of_people} types of people."
+x = 'There are #{types_of_people} types of people.'
 # variables that contain a string
 binary = "binary"
 do_not = "don't"
@@ -52,4 +52,5 @@ puts w + e
 # Study Drill 5 - What happens when you change the strings to use ' (single-quote) instead of " 
                 # (double-quote)? Do they still work? Try to guess why.
 
-# Answer: They still work. you can use single or double quotations for strings.
+# Answer: When using single quotations the string interpolation doesnt work. Single quotes are treated as literals and do not evaluate 
+        # the string. String interpolation only works with double quotes.
