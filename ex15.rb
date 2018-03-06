@@ -32,6 +32,8 @@ txt_again.close
 
 # Study Drill
 
+# Study Drill 1 - Above each line, write out in English what that line does.
+
 # Study Drill 2 -If you are not sure, ask someone for help or search online. Many times searching for "ruby 
                 # THING" will find answers to what that THING does in Ruby. Try searching for "ruby open."
 
