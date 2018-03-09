@@ -78,4 +78,4 @@ print_a_line(current_line, current_file)
 
 # Study Drill 5 - Research the shorthand notation +=, and rewrite the script to use += instead.
 
-# Answer: the 'current_line = current_line + 1' can be written like this 'current_line += 1'
+# Answer: The 'current_line = current_line + 1' can be written like this 'current_line += 1'
