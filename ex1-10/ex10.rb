@@ -29,7 +29,7 @@ puts fat_cat
 # Answer: In the above example Ruby throws an error because of the single quotation in "I'll" Ruby thinks that is the 
         # end of the string and the rest of the code cannot be read. In Ruby there is no triple quotations '''code'''
         # is read the same as '' 'code' ''. I removed the single quote in "I'll" just to make sense of 
-        # why singe quote will be used instead. Using single quote tells Ruby to print exactly whats
+        # why single quote will be used instead. Using single quote tells Ruby to print exactly what's
         # inside the quote as is on the terminal without any interpolation or escape sequences. 
 
 fat_cat = '

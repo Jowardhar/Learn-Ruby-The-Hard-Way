@@ -1,0 +1,104 @@
+Learn Ruby the Hard way - Symbols and characters
+
+puts    = prints a new line to the screen with a new line character at the end
+
+print   = prints a new line, without a new line character at the end
+
+variable= a name that contains an associated value
+
+=       = equals, assignment operator, assigns values e.g assign a string value to a variable
+
+_       = underscore, is used to put an imaginary space between words in a variable name
+
+""      = double quotation marks, used to enclose string
+
+''      = single quotation marks, also used to enclose string ( cannot do string interpolation - tells Ruby to ignore any variables )
+
+#       = octothorpe or pound symbol used to make comments for your code
+
+#{}     = used for string interpolation, the code inside will be evaluated and results shown instead of the code
+
+true    = boolean value
+
+false   = boolean value
+
+%{}     = used to apply format to a string, this is used when you want to apply the same format to multpile values
+
+"""     = triple qotation mark, used for multiple lined string
+
+gets    = a method, used to get standard input from the user or read a line in a file object at a time
+
+chomp   = a string method, used to remove the new line character at the end of a string
+
+to_i    = a method that changes a string to an integer
+
+()      = brackets can be used to enter parameters
+
+ARGV    = the argument value, holds arguments that are entered in to the command line
+
+$stdin  = standard input, used when arguments are entered on the command line to diffrentiate between $stdin.gets and Kernel#gets
+
+open()  = a method that takes a filename as a parameter and returns a file object
+
+.read   = a file object method that returns the content of a file as a string
+
+.close  = a file objeect method, closes the file
+
+.truncate()= a file object method, changes the file size to integer byts (NOTE: removes the content of the file)
+
+.writes = a file object method, writes the given string to the file
+
+.readline= a object file method, reads just one line of the text file
+
+.seek() = a object file method, moves the read/write file position indicator to specified location 
+          (NOTE: seek(0) moves to the beggining of the file)
+
+.length = a string method, returns the length of a string
+
+.exists?= returns true if the file exists, returns false if it doesn't
+
+*args   = used for multiple arguments, creates a list of arguments
+
+def...end = define, defines a function
+
++=      = positive increment, 'variable += increment' is the same as 'variable = variable + increment'
+
+returns= used to exit a function and return a specified value to the function caller
+
+<<END   
+...
+END     = herdoc, or Here Document, this is another way of creating a multi-line string. The 'END' 
+          can be anyword 'BURGER' for example.
+
+module  = provides methods that can be used a-cross classes. Modules are about functions.
+
+.split()= Split, a string method, divides the string in to substrings using a delimiter and returns
+        the subtrings as an array.
+
+.sort   = Sort, an array method, returns a new array with the items sorted alphabetically.
+
+.shift  = Shift, an array method, removes the first item of an array and then returns the array.
+
+.pop  = Pop, an array method, removes teh last item of an array and then returns the array.
+
+Math symbols:
+
++       = plus, used to add numbers or string
+-       = minus, used to subtract numbers
+/       = slash, used for division
+*       = asterick, used for multiplication
+%       = percent, used for modulo operations (modulo )
+Equality Operators:
+
+<       = less-than 
+>       = greater than
+<=      = less-than-equal, less than or equal to
+>=      = more-than-equal, more than or equal to
+==      = equal to,
+!=      = not equal to
+
+Escape sequences:
+
+\t      = tab
+\n      = new line character
+\\      = backslash character
