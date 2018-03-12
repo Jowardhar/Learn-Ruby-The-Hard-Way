@@ -1,0 +1,41 @@
+Study Drill 5 - If any symbols or strange words seem to interest you, write them down to research later.
+
+require     = Require runs another file, also tracks what you have required in the past and wont require the same file.
+          
+            * Ruby Doc: Loads the given name, returning true if successful and false if the feature is already loaded.
+          
+Module      = Modules are about providing methods that you can use a-cross classes. Classes are objects; modules are 
+            about functions.
+            
+            * Ruby Doc: A Module is a collection of methods and constants. The methods in a module may be instance methods 
+            or module methods. Instance methods appear as methods in a class when the module is included, module methods 
+            do not. Conversely, module methods may be called without creating an encapsulating object, while instance 
+            methods may not.
+            
+class       = A Class is an object type wich is initialized and assigned to the glabal constant.
+            
+            * Ruby Doc: Classes in Ruby are first-class objects---each is an instance of class Class.
+
+||=         = assigns the value on the right hand side to the left like '=' operator, if the left hand side returns the
+            value of 'nil' or 'false'. Peter Cooper "If the left hand side of the comparison is true, there is no need 
+                                                    to check the right hand side"
+
+FileUtils.mkdir_p = Creates one or more file directories
+        
+            * Ruby DOc: Creates a directory and all its parent directories.
+
+FileUtils.cp = Copies a files content to the destination
+            
+            * Ruby Doc: Copies a file content src to dest. If dest is a directory, copies src to dest/src.
+
+File.expand_path = get's the absolute pathname of a file (unsure what this means or does)
+
+            * Ruby DOc: Converts a pathname to an absolute pathname. Relative paths are referenced from the current working 
+            directory of the process unless dir_string is given, in which case it will be used as the starting point. The 
+            given pathname may start with a “~”, which expands to the process owner’s home directory (the environment 
+            variable HOME must be set correctly). “~user” expands to the named user’s home directory.
+            
+ERB.new     = constructs a new erb object 
+
+            * Ruby Doc: Constructs a new ERB object with the template specified in str.
+            An ERB object works by building a chunk of Ruby code that will output the completed template when run
