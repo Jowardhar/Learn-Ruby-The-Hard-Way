@@ -47,7 +47,3 @@ puts "We'd have %s beans, %d jars, and %d crates" % secret_formaula(start_point)
 # Study Drill 2 -Break the file on purpose, then run it to see what kinds of errors you get. Make sure you can fix it.
 
 # Answer: Broke code and fixed it.
-
-
-
-
